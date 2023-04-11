@@ -8,11 +8,18 @@ body {
 #may_tinh {
     width: 320px;
     height: 520px;
-    background-color: lightcyan;
+    background-color: green;
     top: 20px;
     margin: 0 auto;
     position: relative;
     border-radius: 5px;
+    border: 5px solid blue;
+}
+
+.manHinh{
+    border:5px solid purple;
+    border-radius: 5px;
+    background-color: white;
 }
 
 #ket_qua {
@@ -35,12 +42,11 @@ body {
     font-size: 30px;
 }
 
+/* //==================================Ban Phim================================// */
+
 #ban_phim {
     height: 400px;
 }
-
-
-/* //==================================Ban Phim================================// */
 
 .he_thong,
 .con_so,
@@ -58,6 +64,10 @@ body {
 .con_so,
 .trong {
     background-color: #eaedef;
+}
+
+#ban_phim .trong{
+    background-color: orange;
 }
 
 .con_so {
